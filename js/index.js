@@ -53,6 +53,13 @@ const agregarAlCarrito = (productoId) => {
     const item = productos.find((producto) => producto.id === productoId);
     carrito.push(item);
     item.cantidad--;
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'El producto se agrego al carrito correctamente',
+        showConfirmButton: false,
+        timer: 1500
+    })
     actualizarCarrito();
 }
 

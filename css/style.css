@@ -305,71 +305,29 @@ header .logo {
   align-items: flex-start;
 }
 
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoCategorias {
-  margin: 30px 20px;
+.category_list {
+  display: flex;
+  flex-direction: column;
 }
 
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoCategorias h4 {
-  font-size: 30px;
+.category_item {
+  display: block;
+  width: 100%;
+  padding: 20px;
   margin: 20px 0px;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoCategorias ul {
-  list-style: none;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoCategorias ul li a {
+  background-color: #BBBE64;
+  color: black;
+  text-align: center;
   text-decoration: none;
-  color: black;
+  border-radius: 5%;
 }
 
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoCategorias ul li:hover {
-  background-color: white;
-  color: black;
+.manerasDeFiltrar h4 {
+  font-size: 35px;
+  text-align: center;
 }
 
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoColor {
-  margin: 30px 20px;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoColor h4 {
-  font-size: 30px;
-  margin: 20px 0px;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoColor ul {
-  list-style: none;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoColor ul li a {
-  text-decoration: none;
-  color: black;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoColor ul li:hover {
-  background-color: white;
-  color: black;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoTamanio {
-  margin: 30px 20px;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoTamanio h4 {
-  font-size: 30px;
-  margin: 20px 0px;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoTamanio ul {
-  list-style: none;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoTamanio ul li a {
-  text-decoration: none;
-  color: black;
-}
-
-.main-productos .contenedorPrincipal .manerasDeFiltrar .filtradoTamanio ul li:hover {
+.itemActivo {
   background-color: white;
   color: black;
 }
