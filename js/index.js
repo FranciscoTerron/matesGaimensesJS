@@ -1,3 +1,8 @@
+// No pude hacer andar lo del fetch no se que era lo que me fallaba pero bueno si usted me lo dice quizas lo modifique el resto anda todo
+// fetch('productos.json')
+//     .then(response => response.json())
+//     .then(productos => renderizarProductos(productos))
+
 let contenedorProductos = document.getElementById("productosContenedor");
 
 
